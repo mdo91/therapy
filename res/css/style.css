@@ -43,7 +43,7 @@ padding-top: 0px;
 .header
 {
 
-height: 100vh;
+height: 70vh;
 min-height: auto;
 width: 100%;
   /*linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),*/
@@ -586,7 +586,7 @@ section.about, section.blog
 .home-message 
 {
   
-  margin-top: 290px;
+  margin-top: 100px;
   
 }
 
@@ -883,18 +883,35 @@ padding: 0px;
 .section-services{
   color: #39f !important;
 }
+.services-info
+{
+
+}
 .services-details{
-  padding: 20px;
+  padding: 20px 0 20px;
+  margin-top: 4px;
+
+   box-shadow: 0px 0px 10px 1px rgba(209,209,209,1);
+   transition: background-color 0.5s, color 0.5s, border 0.2s;
 }
 .service-text {
   text-align: center;
   font-family: 'Source Sans Pro',sans-serif !important;
-  border-bottom: #E9D460 solid 0.5px;
+  font-style: normal !important;
+  font-variant-ligatures: normal !important;
+  font-variant-caps: normal !important;
+  font-variant-numeric: normal !important;
+  font-variant-east-asian: normal !important;
+  font-weight: 300 !important;
+  font-stretch: normal !important;
+  border-bottom: #bdc3c7 solid 0.5px;
   padding: 15px;
   line-height: 30px;
-  font-size: 25px;
-  color: #333!important;
+  font-size: 23px;
+  color: #555 ;
+  transition: color 0.5s, border 0.2s;
 }
+
 
 .services-img
 {
@@ -905,13 +922,87 @@ padding: 0px;
   margin:0px;
   
   border-radius: 50%;
-  border: 4px solid #f39c12;
+  border: 4px solid #bdc3c7;
   height: 160px;
   box-sizing: border-box;
   cursor: pointer;
+  transition: border 0.2s;
 }
 .services-image{
 text-align: center;
 }
+.services-details:hover  {
+ background-color: #34495e;
+}
+.services-details:hover p {
+ 
+border-bottom: #fff solid 0.5px;
+color: #fff !important;
+}
+.services-details:hover .services-img
+{
+  border: 4px solid #fff;
+}
 
+.servicse-header
+{
+  color: #34495e;
+}
+.servicse-header:after
+{
+   background: -moz-linear-gradient(120deg,#e67e22 25%,#e67e22 85%);
+  background: -o-linear-gradient(120deg,#e67e22 25%, #e67e22 85%);
+  background: -webkit-linear-gradient(120deg,#e67e22 25%, #e67e22 85%);
+}
+.services-link{
+  text-decoration: none !important;
+}
+/*===section definition*/
+.section-definition
+{
+  background-color: #ffffff;
+  padding-top: 20px;
+}
+.text-definition
+{
+ font-size: 47px;
+ line-height: 54px;
+ color: #F89406;
+ text-transform: none;
+ margin-bottom: 15px;
+}
+.full-definition{
+font-size: 20px;
+line-height: 145%;
+color: #555;
+font-weight: 300;
+font-family: 'Lato', Arial, sans-serif !important; 
+text-align: left;
+/*width: 70%; */
 
+}
+.read-more{
+  display: inline-block;
+  border-radius: 200px;
+  padding: 10px 30px;
+  text-decoration: none !important;
+  font-weight: 300;
+  border: 1px solid #e67e22;
+  color: #e67e22!important;
+  font-size: 20px;
+  transition: background-color 0.5s, color 0.5s, border 0.2s;
+}
+.read-more:hover{
+  background-color: #e67e22;
+  color: #fff !important;
+}
+.left-text-container
+{
+ box-shadow: 0px 0px 10px 1px rgba(209,209,209,1);
+ padding: 20px;
+}
+.left-text{
+  text-align: center ;
+  background-color: #ffff;
+  text-shadow: 4%;
+}
