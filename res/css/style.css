@@ -1006,3 +1006,76 @@ text-align: left;
   background-color: #ffff;
   text-shadow: 4%;
 }
+/*==== section request =====*/
+.section-request{
+margin-top: 20px;
+padding: 0px;
+
+}
+.request-container{
+  padding: 2px;
+  background-color: #F89406;
+}
+.call-text{
+font-size: 24px;
+color: #fff;
+}
+.button-request{
+font-family: 'Source Sans Pro',sans-serif !important;
+margin-top: 4px;
+background-color: #2c3e50;
+color: #fff;
+text-decoration: none !important;
+cursor: pointer;
+font-size: 24px;
+display: inline-block;
+font-weight: 400;
+padding: 5px 70px;
+border-radius: 15px;
+transition: background-color 0.3s;
+}
+.button-request:hover {
+  background-color: #fff;
+  color: #555;
+}
+.call-container{
+  margin-top: 8px;
+  background-color: #fff;
+  color: #F89406;
+  display: inline-block;
+  padding: 2px 6px 2px 6px;
+  font-size: 24px;
+  border-radius: 5px;
+}
+/*=== overview ===*/
+.section-overview
+{
+  background-image: url("../img/diagmonds.png");
+  background-attachment: fixed;
+  font-weight: 300;
+}
+.overview-icon{
+font-size: 150px;
+color: #fff;
+padding-top: 10px;
+/*margin-top: 80px !important;*/
+/*padding-bottom: 0px;
+margin-bottom: 0px;*/
+display: inline-block;
+}
+.overview-text{
+  
+    padding: 40px;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-variant-east-asian: normal;
+    font-weight: 300;
+    font-stretch: normal;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: Lato, sans-serif;
+    color: #fff;
+
+}
